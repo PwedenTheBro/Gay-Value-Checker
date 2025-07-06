@@ -20,13 +20,13 @@ def reset_fields():
 root = tk.Tk()
 root.title("Value Checker")
 root.geometry("1920x1080")
-root.configure(bg="#1e1e2f")  # Mörk bakgrund
+root.configure(bg="#1e1e2f") 
 
 # Headline
 title = tk.Label(root, text="Is your value gay?", font=("Arial", 70, "bold"), bg="#1e1e2f", fg="white")
 title.pack(pady=20)
 
-# Inmatningsfält
+# Entry
 entry = tk.Entry(root, font=("Arial", 70))
 entry.pack(pady=10)
 
